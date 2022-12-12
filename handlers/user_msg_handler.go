@@ -108,7 +108,7 @@ func buildUserReply(reply string) string {
 
 	reply = strings.TrimSpace(reply)
 	if reply == "" {
-		return "请求得不到任何有意义的回复，请具体提出问题。"
+		return "GPT3.0未响应该消息。"
 	}
 
 	// 2.如果用户有配置前缀，加上前缀

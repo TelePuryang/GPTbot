@@ -5,6 +5,6 @@
   "max_tokens": 1024,
   "model": "text-davinci-003",
   "temperature": 1,
-  "reply_prefix": "来自机器人回复：",
-  "session_clear_token": "清空会话"
+  "reply_prefix": "非GPT3.5版本回复",
+  "session_clear_token": "重置"
 }
